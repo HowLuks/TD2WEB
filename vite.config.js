@@ -5,7 +5,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/gerenciamento-jogos/', // <-- ESSA LINHA AQUI
+  base: '/TD2WEB/', // <-- ESSA LINHA AQUI
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
